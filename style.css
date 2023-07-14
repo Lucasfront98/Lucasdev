@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/*fontes usadas
+{font-family: 'Nunito', sans-serif;
+
+font-family: 'Roboto Mono', monospace;}
+Cores   #002244
+        #fee001
+        #FFFFFF
+        #fde42b
+ */
+body, input, textarea{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffffff;
+}
+header h1, section h2, section h3, form button{
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+header{
+    background-color: #002244;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 28px 0;
+    padding-left: 12px;
+}
+nav li{
+    margin-left: 22px;
+    font-size: 18px;
+    display: inline;    
+}
+nav li a {
+    font-size: large;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    border-radius: 6px;
+    padding: 8px;
+}
+nav li :hover{
+    transition: 500ms;
+    background-color:#fee001;
+    color: #002244;
+}
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.logos{
+    margin-top: 50px;
+    height: 24px;
+}
+.logos li {
+    display: inline;
+    margin-right: 26px;
+    
+}
+section {
+    padding: 24px 0;
+}
+section .container{
+    align-items: flex-start;
+}
+section h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+    
+}
+section p{
+    margin-right: 90px;
+    margin-bottom: 8px;
+}
+section .banner{
+    margin-right: 32px;
+}
+#contatos .container{
+    display: block;    
+}
+.methods{
+    justify-content: space-between;
+}
+section h3{
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+    
+form input,
+form textarea,
+form button { 
+    display:block;
+    width: 250px;
+    height: 36px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #fee001;
+    border: none;
+    border-radius: 6px;
+}
+form textarea{
+    resize: none;
+}
+form button{
+    color:#002244;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #fde42b;
+}
+.methods form input:focus, textarea:focus {
+    outline-color: #002244;
+}
+
+.logocontatos img{
+    height: 24px;
+    margin-top: px;
+}
+.logocontatos li{
+    display: inline;
+    margin-right: 22px;
+    
+}
+footer{
+    background-color: #002244;
+    color: #ffffff;
+    padding: 16px 0;
+}
